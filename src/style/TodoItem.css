@@ -1,0 +1,23 @@
+.todoItem {
+    display: flex;
+    justify-content: space-between;
+    height: 37px;
+    line-height: 37px;
+    background-color: rgb(240, 255, 255, 0.4);
+
+    border-radius: 12px;
+    padding: 0 10px;
+    margin: 10px;
+}
+.todoText {
+    font-size: 12px;
+}
+.checkIcon:hover {
+    color: black;
+}
+
+.deleteIcon, .checkIcon {
+    margin: 0 5px;
+    background: none;
+    border: none;
+}
